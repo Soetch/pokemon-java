@@ -19,8 +19,7 @@ public class Main {
         Item superpotion = new SuperPotion();
         superpotion.displayItemInfos();
 
-        CreatureRelatedMethods.Heal(pikachu, "superpotion");
+        CreatureRelatedMethods.Heal(pikachu, "hyperpotion");
         pikachu.displayCreatureInfos();
-
     }
 }
